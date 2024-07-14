@@ -3,7 +3,7 @@
   font-family: Pacifico;
   display: flex;
   justify-content: center;
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 
 .main_container {
@@ -11,7 +11,11 @@
 }
 .header_container {
   border-bottom: 1px solid transparent;
-  background: #86c284;
+  background: linear-gradient(
+    75.7deg,
+    rgb(34, 126, 34) 3.8%,
+    rgb(99, 162, 17) 87.1%
+  );
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -44,7 +48,7 @@
 }
 .logo {
   font-family: Pacifico;
-  color: green;
+  color: #fff;
   font-size: 24px;
 }
 .container {
