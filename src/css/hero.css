@@ -1,0 +1,7 @@
+.hero_container {
+  height: 900px;
+  max-width: 100%;
+  background-image: url(../img/grass-gd921ccf99_1280.jpg);
+  background-size: cover; /* Растягиваем фон на всю ширину блока */
+  background-position: center; /* Центрируем фон */
+}
