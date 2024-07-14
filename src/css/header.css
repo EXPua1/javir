@@ -19,3 +19,39 @@
 .nav-link:focus {
   color: #747bff;
 }
+
+.main_title {
+  font-family: Pacifico;
+  display: flex;
+  justify-content: center;
+  color: rgba(70, 136, 4, 0.651);
+}
+
+.main_container {
+  margin-top: 25px;
+}
+.main_container nav {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.navigation_list {
+  display: flex;
+  gap: 24px;
+}
+
+.contacts_header {
+  display: flex;
+  gap: 24px;
+}
+
+.navigation_list li {
+  border: 1px solid black;
+  padding: 10px 24px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
