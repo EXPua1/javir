@@ -1,6 +1,6 @@
 .hero_container {
-  margin-top: -500px;
-  height: 1300px;
+  margin-top: -300px;
+  height: 955px;
   max-width: 100%;
   background-image: url(../img/grass-gd921ccf99_1280.jpg);
   background-size: cover; /* Растягиваем фон на всю ширину блока */
