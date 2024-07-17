@@ -3,18 +3,26 @@
   align-items: center;
 }
 
-.main_nav {
+.main_container {
+  margin-top: 10px;
+}
+.header_container {
+}
+.main_container nav {
   display: flex;
   justify-content: space-between;
 }
 .nav_list_menu {
   display: flex;
+  gap: 24px;
 }
 
 .main_nav a {
   display: block;
   text-decoration: none;
   padding: 45px 15px 25px 0;
+  font-size: 25px;
+  font-weight: bold;
 }
 .nav_address_container {
   display: flex;
@@ -26,21 +34,32 @@
   gap: 12px;
 }
 .header_container {
-  padding: 40px 20px 0 20px;
+  padding: 0 20px 0 20px;
+  border-bottom: 1px solid transparent;
   background: linear-gradient(
-    90deg,
-    rgba(118, 236, 174, 1) 0%,
-    rgba(57, 187, 152, 1) 100%
+    179.1deg,
+    rgba(43, 170, 96, 0.1) 2.3%,
+    /* Увеличиваем прозрачность до 90% */ rgba(129, 204, 104, 0.9) 98.3%
+      /* Увеличиваем прозрачность до 90% */
   );
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  backdrop-filter: blur(
+    8px
+  ); /* Добавляем размытие заднего фона для эффекта прозрачности */
 }
 
 .header_title {
+  display: flex;
+  margin: 0 auto;
   line-height: 39px;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px !important;
+  font-size: 30px;
   font-family: Arimo, sans-serif;
-  max-width: 500px;
+  max-width: 900px;
+  color: white;
+  padding-top: 100px;
 }
 
 .nav_list_menu a:hover {
