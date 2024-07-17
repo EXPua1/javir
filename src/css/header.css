@@ -34,32 +34,8 @@
 .header_container {
   padding: 0 20px 0 20px;
   border-bottom: 1px solid transparent;
-  background: linear-gradient(
-    179.1deg,
-    rgba(43, 170, 96, 0.1) 2.3%,
-    /* Увеличиваем прозрачность до 90% */ rgba(129, 204, 104, 0.9) 98.3%
-      /* Увеличиваем прозрачность до 90% */
-  );
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  backdrop-filter: blur(
-    8px
-  ); /* Добавляем размытие заднего фона для эффекта прозрачности */
-}
-
-.header_title {
-  margin: 0 auto;
-  font-style: normal;
-  font-size: 30px;
-  max-width: 900px;
+  background: transparent;
   color: white;
-  padding-top: 100px;
-  text-align: center;
-}
-.header-title .highlight {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
 }
 
 .nav_list_menu a:hover {
