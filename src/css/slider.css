@@ -13,6 +13,9 @@
 }
 
 .text-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   flex: 1;
   max-width: 40%;
   padding: 10px; /* Дополнительно для отступов внутри текста */
@@ -31,6 +34,7 @@
   height: auto; /* Для сохранения пропорций изображения */
   display: block; /* Убираем возможные пробелы вокруг изображения */
   border-radius: 5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .slider_section {
   padding: 120px 0 120px;
@@ -60,13 +64,12 @@
 
 .slider_title {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .text-content p {
   line-height: 1.5;
 }
 .text-content h2 {
-  margin-top: 55px;
   text-align: center;
   margin-bottom: 15px;
 }
