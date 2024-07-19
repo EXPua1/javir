@@ -1,11 +1,22 @@
 .hero_container {
   margin-top: -300px;
-  height: 955px;
+  height: 1200px;
   max-width: 100%;
-  background-image: url(../img/grass-gd921ccf99_1280.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.3),
+      rgba(46, 47, 66, 0.3)
+    ),
+    url(../img/grass-gd921ccf99_1280.jpg);
   background-size: cover; /* Растягиваем фон на всю ширину блока */
   background-position: center; /* Центрируем фон */
 }
+.hero_gradient {
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
+}
+
 .header_title {
   font-style: normal;
   font-size: 24px;
@@ -20,6 +31,8 @@
   display: inline-block;
   width: 100%;
   text-align: center;
+  font-size: 83px;
+  color: #52ac62;
 }
 .high {
   display: flex;
@@ -34,9 +47,11 @@
   display: flex;
 }
 .hero_info {
-  margin-left: 15px;
+  margin-left: 25px;
   padding-top: 255px;
   width: 600px;
   color: white;
-  font-size: 18px;
+
+  font-size: 1.3em;
+  line-height: 1.5em;
 }

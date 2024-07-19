@@ -1,0 +1,27 @@
+.slider {
+  width: 256px;
+  height: 256px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.slider_gallery {
+  display: flex;
+
+  position: absolute;
+  height: 256px;
+  width: 1024px;
+  background: orangered;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.slider_section {
+  padding: 120px 0 120px;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+}
