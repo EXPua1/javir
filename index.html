@@ -12,7 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet" />
   <script type="module" crossorigin src="/javir/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/javir/assets/index-08d671fd.css">
+  <link rel="modulepreload" crossorigin href="/javir/assets/vendor-3f9fd4f3.js">
+  <link rel="stylesheet" href="/javir/assets/vendor-7986cf0c.css">
+  <link rel="stylesheet" href="/javir/assets/index-a774b80d.css">
 </head>
 
 <body>
@@ -90,26 +92,20 @@
   </section>
 
   <section class="slider_section">
-    <div class=" b element_container">
-      <button class="slider_prev">Previous</button>
-      <div class="slider slider_js ">
-        <div class="slider_gallery js_slider_gallery">
-          <img src="/javir/assets/1-65d0f4c0.jpg" width=256 alt="">
-          <img src="/javir/assets/2-9750e3ea.jpg" width=256 alt="">
-          <img src="/javir/assets/3-9112387d.jpg" width=256 alt="">
-          <img src="/javir/assets/3-9112387d.jpg" width=256 alt="">
-        </div>
+    <div class="swiper ">
+      <!-- Оболочка слайдов -->
+      <div class="swiper-wrapper">
+        <!-- Слайды -->
+        <div class="swiper-slide"><img src="/javir/assets/1-65d0f4c0.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="/javir/assets/2-9750e3ea.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="/javir/assets/3-9112387d.jpg" alt=""></div>
       </div>
-      <button class="slider_next">Next</button>
-
-
-
-
-
-
-
+      <!-- Пагинация -->
+      <div class="swiper-pagination"></div>
+      <!-- Навигационные кнопки -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
-
   </section>
 
 
