@@ -88,31 +88,25 @@
   </section>
 
   <section class="slider_section">
-    <div class=" b element_container">
-      <button class="slider_prev">Previous</button>
-      <div class="slider slider_js ">
-        <div class="slider_gallery js_slider_gallery">
-          <img src="./img/gallery/1.jpg" width=256 alt="">
-          <img src="./img/gallery/2.jpg" width=256 alt="">
-          <img src="./img/gallery/3.jpg" width=256 alt="">
-          <img src="./img/gallery/3.jpg" width=256 alt="">
-        </div>
+    <div class="swiper ">
+      <!-- Оболочка слайдов -->
+      <div class="swiper-wrapper">
+        <!-- Слайды -->
+        <div class="swiper-slide"><img src="./img/gallery/1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./img/gallery/2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="./img/gallery/3.jpg" alt=""></div>
       </div>
-      <button class="slider_next">Next</button>
-
-
-
-
-
-
-
+      <!-- Пагинация -->
+      <div class="swiper-pagination"></div>
+      <!-- Навигационные кнопки -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
-
   </section>
 
 
 
-  <script type="module" src="main.js"></script>
+  <script type="module" src="./main.js"></script>
 </body>
 
 </html>

@@ -1,18 +1,31 @@
-let offSet = 0; //смещение от левого края
-const sliderLine = document.querySelector('.js_slider_gallery');
+// import Swiper bundle with all modules installed
+import Swiper from 'swiper/bundle';
 
-document.querySelector('.slider_next').addEventListener('click', () => {
-  offSet += 256;
-  if (offSet > 768) {
-    offSet = 0;
-  }
-  sliderLine.style.left = -offSet + 'px';
-});
+// import styles bundle
+import 'swiper/css/bundle';
 
-document.querySelector('.slider_prev').addEventListener('click', () => {
-  offSet -= 256;
-  if (offSet < 0) {
-    offSet = 768;
-  }
-  sliderLine.style.left = -offSet + 'px';
+// import Swiper and modules styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+const swiper = new Swiper('.swiper', {
+  // Опциональные параметры
+  direction: 'horizontal',
+  loop: true,
+  observer: true,
+  observeParents: true,
+  parallax: true,
+
+  // Пагинация
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Навигационные стрелки
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 });
