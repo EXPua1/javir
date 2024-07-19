@@ -9,4 +9,24 @@
 
 .slider_section {
   padding: 120px 0 120px;
+  background-color: #fff;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  right: 10px;
+  padding: 30px;
+  color: #e2d7d7 !important;
+  fill: #e2d7d7 !important;
+  stroke: #e2d7d7 !important;
+}
+
+.swiper-pagination {
+  .swiper-pagination-bullet-active {
+    background-color: #e2d7d7 !important;
+  }
+}
+
+.slider_title {
+  text-align: center;
+  margin-bottom: 25px;
 }
