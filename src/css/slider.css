@@ -1,12 +1,36 @@
 .swiper {
-  width: 900px;
+  width: 100%;
   height: auto;
 }
 
 .swiper-wrapper {
   display: flex;
 }
+.myTest {
+  display: flex;
+  flex-wrap: wrap; /* Добавьте это, если хотите, чтобы содержимое переносилось на новую строку на маленьких экранах */
+}
 
+.text-content {
+  flex: 1;
+  max-width: 40%;
+  padding: 10px; /* Дополнительно для отступов внутри текста */
+  box-sizing: border-box; /* Для правильного учета padding в ширину */
+}
+
+.image-content {
+  flex: 1;
+  max-width: 60%;
+  padding: 10px; /* Дополнительно для отступов вокруг изображения */
+  box-sizing: border-box; /* Для правильного учета padding в ширину */
+}
+
+.image-content img {
+  width: 100%;
+  height: auto; /* Для сохранения пропорций изображения */
+  display: block; /* Убираем возможные пробелы вокруг изображения */
+  border-radius: 5%;
+}
 .slider_section {
   padding: 120px 0 120px;
   background-color: #fff;
@@ -18,11 +42,18 @@
   color: #e2d7d7 !important;
   fill: #e2d7d7 !important;
   stroke: #e2d7d7 !important;
+  position: absolute !important;
+  top: 50% !important;
+}
+
+.swiper-pagination {
+  top: 90% !important;
+  left: 20% !important;
 }
 
 .swiper-pagination {
   .swiper-pagination-bullet-active {
-    background-color: #e2d7d7 !important;
+    background-color: #000000 !important;
   }
 }
 
