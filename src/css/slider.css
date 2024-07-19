@@ -9,6 +9,7 @@
 .myTest {
   display: flex;
   flex-wrap: wrap; /* Добавьте это, если хотите, чтобы содержимое переносилось на новую строку на маленьких экранах */
+  padding: 0 80px;
 }
 
 .text-content {
@@ -59,5 +60,13 @@
 
 .slider_title {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+.text-content p {
+  line-height: 1.5;
+}
+.text-content h2 {
+  margin-top: 55px;
+  text-align: center;
+  margin-bottom: 15px;
 }

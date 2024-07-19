@@ -29,3 +29,8 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+const prewBtn = document.querySelector('swiper-button-prev');
+
+prewBtn.style.left = '-110px';
+prewBtn.style.position = 'relative';
